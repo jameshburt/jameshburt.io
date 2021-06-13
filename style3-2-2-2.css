@@ -1,0 +1,31 @@
+h1{
+    -webkit-text-stroke: 1px rgb(0, 0, 0); /* width and color */
+
+font-family: sans; color: rgb(255, 255, 255); text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+body {
+
+    background-image: linear-gradient(105deg, rgb(243, 186, 111), rgb(228, 148, 44));
+    
+}
+.button {
+    width:115px;
+    height:30px;
+    background-color: #ffffff; 
+    font-size: small;
+    border-radius:  12px;
+    border-color: rgb(158, 158, 158);
+    text-align: center;
+}
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
