@@ -1,21 +1,77 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-    <link href="style3-2-2.css" rel="stylesheet" type="text/css" />
-    <script src = "ldpgScripts.js"></script>
-    
-    <title>
-        James Harrison Burt's Landing Page
-    </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<h1>UAT SPACE INDEX</h1>
-<h2>...choose below...</h2>
-<br>
+
 <body>
-    <button class = "button" onclick="UATSpaceTrans()">UAT Space</button>
-    <button class = "button" onclick="objScripts()">Objectives</button>
-    <img src="UATspaceLogo-2.jpeg" class = "center">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#freestuff">Free Stuff</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#freemusic">Free Music</a></li>
+        <li><a href="#videos">Videos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="home" class="section">
+    <h1>Welcome to My Website</h1>
+    <p>This is the home section of my website.</p>
+    <button id="signup-btn">Sign Up</button>
+  </div>
+
+  <div id="about" class="section">
+    <h2>About Me</h2>
+    <p>This is the about section where you can learn more about me.</p>
+  </div>
+
+  <div id="freestuff" class="section">
+    <h2>Free Stuff</h2>
+    <ul>
+      <li>Free Ebooks</li>
+      <li>Free Downloads</li>
+      <li>Free Resources</li>
+    </ul>
+  </div>
+
+  <div id="music" class="section">
+    <h2>Music</h2>
+    <div class="music-player">
+      <!-- Music player UI -->
+    </div>
+  </div>
+
+  <div id="freemusic" class="section">
+    <h2>Free Music</h2>
+    <div class="music-player">
+      <!-- Music player UI for free music -->
+    </div>
+  </div>
+
+  <div id="videos" class="section">
+    <h2>Videos</h2>
+    <div class="video-gallery">
+      <!-- Video thumbnails -->
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
+
+  <div id="signup-popup" class="popup">
+    <!-- Signup alert pop-up content -->
+  </div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
